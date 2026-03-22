@@ -10,9 +10,9 @@ Quantifying Geopolitical Disruptions in Japan’s Maritime Supply Chain - My 1st
 
 🚀 The Data Workflow: 
 1. Data Extraction & Cleaning (SQL)To establish the baseline, I queried the UNCTAD dataset to isolate Japan's trade trajectory. I encountered a "String-to-Date" mismatch in the IMF timestamps, which required a LIKE operator or SUBSTRING logic to align the daily traffic with the 2022 calendar year.
-SQL/
+   
+SQL/ * Extracting Japan's 2022 Import Baseline */
 
-* Extracting Japan's 2022 Import Baseline */
 SELECT 
     Year, 
     `US_at_current_prices_in_millions` AS Import_Value
