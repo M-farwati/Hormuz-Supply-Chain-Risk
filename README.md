@@ -25,9 +25,9 @@ WHERE Economy_label = 'Japan'
 I performed a 7-Day Moving Average Delta Analysis. By comparing the current volume to the prior year's baseline, I identified a significant volatility spike.
 
 Key Calculation: 
-* Daily Import Baseline (Japan): $897M /365 =$2.45M$
+* Daily Import Baseline (Japan): $897M /365 =$2.45M
 * Hormuz Exposure (20% weight): $491k
-* Calculated Value at Risk (VaR): $491k times 20.7% = $101k
+* Calculated Value at Risk (VaR): $491k x 20.7% = $101k
 
 📈 Key Visuals: 
 * The Value at Risk Waterfall. This chart illustrates the "funneling" of macro-trade data into a daily operational risk metric.
