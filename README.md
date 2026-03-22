@@ -19,7 +19,7 @@ SELECT
 FROM `unctad_data`
 WHERE Economy_label = 'Japan' 
   AND Year = 2022 
-  AND `Flow Label` = 'Import';
+  AND Flow_label = 'Import';
 
 2. Quantitative Modeling (Excel/SQL)
 I performed a 7-Day Moving Average Delta Analysis. By comparing the current volume to the prior year's baseline, I identified a significant volatility spike.
